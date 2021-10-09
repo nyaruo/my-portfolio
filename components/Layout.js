@@ -8,12 +8,13 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
                 <title> {title} </title>
             </Head>
 
+            <div className="sticky top-0 z-50">
             <header>
                 <nav className="bg-white w-screen border-b-2 border-gray-100">
                     <div className="flex items-center pl-8 h-14">
                         <div className="flex space-x-4">
                             <Link href="/">
-                                <a className="text-lg text-gray-600 hover:text-gray-400 px-5 py-2 rounded ">
+                                <a className="text-lg text-gray-600 hover:text-gray-400 px-5 py-2 rounded">
                                     TANIKAWA&apos;s Portfolio
                                 </a>
                             </Link>
@@ -21,6 +22,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
                     </div>
                 </nav>
             </header>
+            </div>
 
             <main className="flex flex-1 flex-col items-center">
                 {children}
