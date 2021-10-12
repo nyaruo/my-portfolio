@@ -2,7 +2,8 @@ import Layout from "../components/Layout";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
-import { faAt, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       {/* <div className="md:flex md:justify-center md:space-x-4 md:p-5"> */}
       <div className="md:space-x-4 md:pt-5">
         {/* Profile */}
-        <div className="block relative m-5 p-5 bg-white border-2 border-gray-100 rounded">
+        <div className="block m-5 p-5 bg-white border-2 border-gray-100 rounded">
           <h1 className="text-3xl">Profile(プロフィール)</h1>
           <div className="md:flex md:space-x-4 md:p-5">
             <div className="mt-4 ">
@@ -52,7 +53,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon icon={faAt} size="2x" color="#f5955d" className="hover:opacity-80" />
+                    <FontAwesomeIcon icon={faEnvelope} size="2x" color="#f5955d" className="hover:opacity-80" />
                   </a>
                 </div>
               </div>
@@ -66,7 +67,7 @@ export default function Home() {
                   <p className="py-2">中京大学3年　工学部情報工学科(2021/8)</p>
                   <div className="mt-2">
                     <p>はじめまして。</p>
-                    <p>私は現在、Web技術を学んでおり、個人開発ではモバイルアプリ、システムトレードアプリ開発を行なっています。</p>
+                    <p>私は現在、Web技術を学んでおり、個人開発ではモバイルアプリ、システムトレードアプリ開発を行なっています。　　　　　　　　</p>
                     <p>また、普段は趣味で、焼肉屋巡りをしたり、本を読んだり、ギターを弾いたりしています。</p>
                     <p>よろしくお願い致します。</p>
                   </div>
@@ -78,9 +79,10 @@ export default function Home() {
         </div>
         {/* Profile End*/}
 
-        <div className="md:flex md:justify-center md:space-x-2 md:p-1">
+
+        <div className="md:flex md:space-x-2 md:p-1">
           {/* Skill */}
-          <div className="block relative m-5 p-5 bg-white border-2 border-gray-100 rounded">
+          <div className="block p-5 bg-white border-2 border-gray-100 rounded">
             <h1 className="text-3xl">Skill(スキル)</h1>
             <div className="block relative m-5 p-5 border-2 border-gray-100 rounded">
               <div className="text-lg">大学講義</div>
@@ -109,26 +111,32 @@ export default function Home() {
           {/* Skill End */}
 
           {/* Development Product */}
-          <div className="block relative m-5 p-5 bg-white border-2 border-gray-100 rounded">
+          <div className="block p-5 bg-white border-2 border-gray-100 rounded">
             <h1 className="text-3xl md:flex md:space-x-4">Works(開発物)</h1>
             <div className="block relative m-5 p-5 border-2 border-gray-100 rounded">
               <div className="text-lg">大学講義</div>
+              <a className="text-base md:flex md:space-x-4 md:p-1 hover:opacity-80">aa</a>
+              <a className="text-base md:flex md:space-x-4 md:p-1 hover:opacity-80">aa</a>
+              <a className="text-base md:flex md:space-x-4 md:p-1 hover:opacity-80">aa</a>
+              <a className="text-base md:flex md:space-x-4 md:p-1 hover:opacity-80">aa</a>
+              <a className="text-base md:flex md:space-x-4 md:p-1 hover:opacity-80">aa</a>
+              <a className="text-base md:flex md:space-x-4 md:p-1 hover:opacity-80">aa</a>
             </div>
 
             <div className="block relative m-5 p-5 border-2 border-gray-100 rounded">
               <div className="text-lg">個人開発</div>
               <div className="m-2">
-                <div className="text-base text-gray-600">(Web開発)</div>
-                <Link href="/Works/portfolio_1">
-                  <a className="text-base md:flex md:space-x-4 md:p-3 hover:opacity-80">
-                    旧Portfolio<a className="text-blue-500 text-opacity-60">(html,css,javascript)</a>　　<FontAwesomeIcon icon={faExternalLinkAlt} className="text-gray-500 text-opacity-80"/>
+                <div className="text-base text-gray-600 md:p-1">(Web開発)</div>
+                <Link href="/Works/portfolio_former">
+                  <a className="text-base md:flex md:space-x-4 md:p-1 hover:opacity-80">
+                    　　旧Portfolio<a className="text-blue-500 text-opacity-60">(html,css,javascript)</a>　　<FontAwesomeIcon icon={faExternalLinkAlt} className="text-gray-500 text-opacity-80"/>
                   </a>
                 </Link>
               </div>
               <div className="m-2">
-                <Link href="/Works/portfolio_2">
-                  <a className="text-base md:flex md:space-x-4 md:p-3 hover:opacity-80 border-b-2 border-gray-100">
-                    新Portfolio<a className="text-blue-500 text-opacity-60">(html,css,javascript)</a>　　<FontAwesomeIcon icon={faExternalLinkAlt} className="text-gray-500 text-opacity-80"/>
+                <Link href="/Works/portfolio_new">
+                  <a className="text-base md:flex md:space-x-4 md:p-1 hover:opacity-80 border-b-2 border-gray-100">
+                    　　新Portfolio<a className="text-blue-500 text-opacity-60">(html,css,javascript)</a>　　<FontAwesomeIcon icon={faExternalLinkAlt} className="text-gray-500 text-opacity-80"/>
                   </a>
                 </Link>
               </div>
@@ -138,6 +146,9 @@ export default function Home() {
         </div>
 
         {/* Books */}
+        <div className="block m-5 p-5 bg-white border-2 border-gray-100 rounded">
+          <h1 className="text-3xl">Profile(プロフィール)</h1>
+        </div>
         <div className="block relative m-5 p-5 bg-white border-2 border-gray-100 rounded">
           <h1 className="text-3xl md:flex md:space-x-4">Books(読書)<p className="text-gray-600 text-opacity-70"> 0</p> 冊</h1>
           <div className="block relative m-5 p-5 border-2 border-gray-100 rounded">
