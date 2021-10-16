@@ -1,11 +1,11 @@
 export default function Skill() {
     return (
-        <div className="block p-4 bg-white border-2 border-gray-100 rounded pr-7">
+        <div className="block p-4 bg-white border-2 border-gray-100 rounded pr-9">
             <h1 className="p-2 text-3xl">Skill(スキル)</h1>
             <div className="block relative m-3 p-5 border-2 border-gray-100 rounded mt-6">
                 <div className="text-lg">大学講義</div>
                 <div className="m-2">
-                    <div className="text-base">
+                    <div className="text-base pr-6">
                         <p>基礎文法、アルゴリズムの学習、簡単なアプリケーションを作成しました。</p>
                         <p className="m-2 text-lg text-blue-500 text-opacity-60"> C, C++, Python, Java, HTML, CSS</p>
                     </div>
