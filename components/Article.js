@@ -1,0 +1,5 @@
+export {default as Profile} from './Profile'
+export {default as Skill} from './Skill'
+export {default as Work} from './Work'
+export {default as Activity} from './Activity'
+export {default as Book} from './Book'
