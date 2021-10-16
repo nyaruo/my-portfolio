@@ -5,7 +5,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 export default function Work() {
     return (
-        <div className="block p-4 pr-7 bg-white border-2 border-gray-100 rounded ">
+        <div className="block p-4 pr-10 bg-white border-2 border-gray-100 rounded ">
             <h1 className="text-3xl p-2 md:flex md:space-x-4">Works(開発物)</h1>
             <div className="block relative m-3 p-5 border-2 border-gray-100 rounded mt-6">
                 <div className="text-lg">大学講義</div>

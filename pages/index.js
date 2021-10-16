@@ -8,9 +8,10 @@ export default function Home() {
   return (
     <Layout title="TANIKAWA's Portfolio">
 
-      <div className="md:space-x-4  md:pt-5">
 
+      <div className="md:space-x-4  md:pt-5">
         <Profile />
+
 
         <div className="md:flex md:space-x-3 mr-3 ml-3">
           <div className="mt-3">
@@ -25,6 +26,7 @@ export default function Home() {
         
        <Activity />
         {/* Book */}
+
 
         <div className="block relative m-5 p-5 bg-white border-2 border-gray-100 rounded">
           <h1 className="text-3xl md:flex md:space-x-4">Books(読書)<p className="text-gray-600 text-opacity-70"> 0</p> 冊</h1>
