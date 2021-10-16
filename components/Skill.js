@@ -1,8 +1,8 @@
 export default function Skill() {
     return (
-        <div className="block p-4 bg-white border-2 border-gray-100 rounded">
+        <div className="block p-4 bg-white border-2 border-gray-100 rounded pr-7">
             <h1 className="p-2 text-3xl">Skill(スキル)</h1>
-            <div className="block relative m-3 p-5 border-2 border-gray-100 rounded">
+            <div className="block relative m-3 p-5 border-2 border-gray-100 rounded mt-6">
                 <div className="text-lg">大学講義</div>
                 <div className="m-2">
                     <div className="text-base">
@@ -12,9 +12,8 @@ export default function Skill() {
                 </div>
             </div>
 
-            <div className="block relative m-3 p-5 border-2 border-gray-100 rounded">
+            <div className="block relative m-3 p-5 border-2 border-gray-100 rounded mt-4">
                 <div className="text-lg">個人開発</div>
-                <div className="m-2">
                     <div className="text-base md:flex md:space-x-4 md:p-3">
                         <p>DiscordBot, システムトレード開発</p>
                         <p className="text-blue-500 text-opacity-60"> Python</p>
@@ -23,10 +22,9 @@ export default function Skill() {
                         <p>タスク管理アプリ開発</p>
                         <p className="text-blue-500 text-opacity-60"> Swift(SwiftUI), Dart(Flutter)</p>
                     </div>
-                </div>
             </div>
 
-            <div className="block relative m-3 p-5 border-2 border-gray-100 rounded">
+            <div className="block relative m-3 p-5 border-2 border-gray-100 rounded mt-4 mb-4">
                 <div className="text-lg">その他</div>
                 <div className="m-2">
                     <div className="text-base">

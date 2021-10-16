@@ -4,7 +4,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 export default function Works() {
     return (
-        <div className="block m-5 p-5 bg-white border-2 border-gray-100 rounded">
+        <div className="block m-3 p-5 bg-white border-2 border-gray-100 rounded">
             <h1 className="text-3xl">Profile(プロフィール)</h1>
             <div className="md:flex md:space-x-4 md:p-5">
                 <div className="mt-4 ">
