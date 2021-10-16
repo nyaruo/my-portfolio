@@ -24,7 +24,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
             </header>
             </div>
 
-            <main className="flex flex-1 flex-col items-center">
+            <main className="flex md:flex-col items-center">
                 {children}
             </main>
 
