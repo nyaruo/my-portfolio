@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { Profile, Skill, Work, Activity, Book } from "../components/Article";
+import { Profile, Skill, Work, Activity, Blog, Book } from "../components/Article";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
           </div>
         </div>
         <Activity />
+        <Blog />
         <Book />
       </div>
 
