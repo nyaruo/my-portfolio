@@ -1,9 +1,11 @@
 # Memo
-
+- [ ] コンポーネント分割
 - [ ] レスポンシブデザインにしたい
 - [ ] 位置ずれを直す
 - [ ] 内容をきちんと埋める
-- [ ] コードを綺麗にする
+
+
+https://zenn.dev/nyarufoy/articles/ae29c1b9395fe7
 
 # View Site
 
