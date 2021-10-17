@@ -8,7 +8,7 @@ export default function Work() {
             <h1 className="text-3xl p-2 md:flex md:space-x-4">Works(開発物)</h1>
             <div className="block relative m-3 p-5 border-2 border-gray-100 rounded mt-6">
                 <div className="text-lg">大学講義</div>
-                <div className="mt-2 ml-4 pr-48">
+                <div className="mt-2 ml-4 pr-72">
                     <WorkItemLec
                         link={'https://github.com/nyaruo/train_timetable_C'}
                         title={'電車時刻表アプリ'}
